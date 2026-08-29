@@ -1,0 +1,27 @@
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1px;
+    background: rgba(201, 162, 39, 0.15);
+}
+
+.card {
+    background: var(--ink--soft);
+    padding: 2.2rem;
+}
+
+.card .icon {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.card h3 {
+    font-size: 1.35rem;
+    margin-bottom: 0.6rem;
+}
+
+.card p {
+    font-size: 0.9rem;
+    color: var(--muted);
+}

@@ -1,0 +1,30 @@
+header.nav {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 1.5rem;
+    background: rgba(31, 27, 22, 0.9);
+    backdrop-filter: blur(6px);
+    border-bottom: 1px solid rgba(201, 162, 39, 0.15);
+}
+
+.nav .brand {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.4rem;
+}
+
+.nav a.cta {
+    border: 1px solid var(--gold);
+    padding: 0.5rem 1.2rem;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    transition: background 0.25s ease, color 0.25s ease;
+}
+
+.nav a.cta:hover {
+    background: var(--gold);
+    color: var(--ink);
+}

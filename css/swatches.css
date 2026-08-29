@@ -1,0 +1,62 @@
+.swatch-strip {
+    display: flex;
+    overflow-x: auto;
+    border-top: 1px solid rgba(201, 162, 39, 0.2);
+    border-bottom: 1px solid rgba(201, 162, 39, 0.2);
+    scrollbar-width: none;
+}
+
+.swatch-strip::-webkit-scrollbar {
+    display: none;
+}
+
+.swatch {
+    flex: 1 0 220px;
+    padding: 2.2rem 1.5rem;
+    border-right: 1px solid rgba(201, 162, 39, 0.15);
+    position: relative;
+    overflow: hidden;
+}
+
+.swatch:last-child {
+    border-right: none;
+}
+
+.swatch::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 0.5;
+}
+
+.swatch.fabric::before {
+    background: linear-gradient(135deg, var(--burgundy), transparent 70%);
+}
+
+.swatch.floral::before {
+    background: linear-gradient(135deg, var(--emerald), transparent 70%);
+}
+
+.swatch.light::before {
+    background: linear-gradient(135deg, #6b5417, transparent 70%);
+}
+
+.swatch.table::before {
+    background: linear-gradient(135deg, #4a3b52, transparent 70%);
+}
+
+.swatch h3,
+.swatch p {
+    position: relative;
+    z-index: 1;
+}
+
+.swatch h3 {
+    font-size: 1.3rem;
+    margin-bottom: 0.4rem;
+}
+
+.swatch p {
+    font-size: 0.85rem;
+    color: var(--muted);
+}

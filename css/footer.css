@@ -1,0 +1,8 @@
+footer {
+    text-align: center;
+    padding: 2.5rem 1.5rem;
+    color: var(--muted);
+    font-size: 0.8rem;
+    letter-spacing: 0.05em;
+    border-top: 1px solid rgba(201, 162, 39, 0.1);
+}
