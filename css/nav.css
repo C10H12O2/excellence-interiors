@@ -28,3 +28,19 @@ header.nav {
     background: var(--gold);
     color: var(--ink);
 }
+
+.nav .brand-group {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.nav .logo {
+    height: 42px;
+    width: 70px;
+}
+
+.nav .brand {
+    font-size: 1.1rem;
+    line-height: 1.2;
+}
