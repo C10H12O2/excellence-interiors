@@ -37,7 +37,8 @@ header.nav {
 
 .nav .logo {
     height: 94px;
-    width: 160px;
+    width: auto;
+    object-fit:contain;
 }
 
 .nav .brand {
