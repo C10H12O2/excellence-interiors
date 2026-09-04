@@ -1,10 +1,15 @@
 :root {
-    --ink: #1f1b16;
-    --ink-soft: #2a241c;
-    --parchment: #F1E9D8;
-    --gold: #C9A227;
-    --burgundy: #7A2E2E;
-    --emerald: #33503F;
-    --muted: #A99C87;
+    --ink: #0D0D0D;
+    --ink-rgb: 13, 13, 13;
+    --ink-soft: #2B1F1A;
+    --parchment: #E8DCC0;
+    --gold: #C8A96B;
+    --gold-rgb: 200, 169, 107;
+    --muted: #8B7355;
+    --accent-brown: #4A3527;
+    --accent-brown-rgb: 74, 53, 39;
+    --border-color: rgb(var(--accent-brown-rgb) / 0.6);
+    --border-strong: rgb(var(--accent-brown-rgb) / 0.6);
+    --nav-bg: rgb(var(--ink-rgb) / 0.9);
     --radius: 2px;
 }

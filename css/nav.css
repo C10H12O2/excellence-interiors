@@ -6,9 +6,9 @@ header.nav {
     justify-content: space-between;
     align-items: center;
     padding: 1.2rem 1.5rem;
-    background: rgba(31, 27, 22, 0.9);
+    background: var(--nav-bg);
     backdrop-filter: blur(6px);
-    border-bottom: 1px solid rgba(201, 162, 39, 0.15);
+    border-bottom: 1px solid var(--border-color);
 }
 
 .nav .brand {
@@ -36,8 +36,8 @@ header.nav {
 }
 
 .nav .logo {
-    height: 42px;
-    width: 70px;
+    height: 94px;
+    width: 160px;
 }
 
 .nav .brand {

@@ -2,12 +2,25 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
     gap: 1px;
-    background: rgba(201, 162, 39, 0.15);
+    background: var(--border-color);
 }
 
 .card {
     background: var(--ink--soft);
-    padding: 2.2rem;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.card img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+}
+
+.card .card-body {
+    padding: 1.6rem 1.8rem;
 }
 
 .card .icon {
@@ -22,6 +35,13 @@
 }
 
 .card p {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     color: var(--muted);
+}
+
+.light-item {
+  filter: brightness(1.15) saturate(1.15);
+}
+.card:has(.light-item) {
+  box-shadow: 0 0 24px rgb(var(--gold-rgb) / 0.15);
 }
