@@ -1,0 +1,64 @@
+@media (max-width: 480px) {
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: stretch;
+        width: 100%;
+        gap: 0.8rem;
+    }
+
+    .btn-solid,
+    .btn-ghost {
+        width: 100%;
+        text-align: center;
+        padding: 0.9rem 1rem;
+        font-size: 0.78rem;
+        letter-spacing: 0.04em;
+        white-space: normal;
+    }
+
+    .hero {
+        padding: 3.5rem 1.25rem;
+        min-height: 80vh;
+    }
+
+    .hero .sub {
+        font-size: 0.95rem;
+    }
+
+    .nav {
+        flex-wrap: wrap;
+        gap: 0.6rem;
+        padding: 1rem 1.2rem;
+    }
+
+    .nav .brand {
+        font-size: 0.85rem;
+    }
+
+    .nav .logo {
+        height: 34px;
+    }
+
+    .nav .cta {
+        padding: 0.4rem 0.9rem;
+        font-size: 0.75rem;
+    }
+
+    section h2 {
+        font-size: 1.7rem !important;
+    }
+
+    .swatch {
+        flex-basis: 160px;
+        padding: 1.6rem 1rem;
+    }
+
+    .swatch h3 {
+        font-size: 1.1rem;
+    }
+
+    .swatch p {
+        font-size: 0.78rem;
+    }
+}
