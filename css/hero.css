@@ -65,3 +65,48 @@
     border-color: var(--gold);
     color: var(--gold);
 }
+
+.hero .eyebrow,
+.hero h1,
+.hero .p.sub,
+.hero-buttons {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 0.7s ease, transform 0.7s ease;
+}
+
+.hero.is-visible .eyebrow {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.1s;
+}
+
+.hero.is-visible h1 {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.25s;
+}
+
+.hero.is-visible p.sub {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.4s;
+}
+
+.hero.is-visible .hero-buttons {
+    opacity: 1;
+    transform: translateY(0);
+    transition-delay: 0.55s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+    .hero .eyebrow,
+    .hero h1,
+    .hero p.sub,
+    .hero-buttons {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+}

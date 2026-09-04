@@ -1,6 +1,16 @@
+window.addEventListener("load", () => {
+    const loader = document.getElementById("page-loader");
+    const hero = document.getElementById("hero");
+
+    setTimeout(() => {
+        loader?.classList.add("is-hidden");
+        hero?.classList.add("is-visible");
+    }, 500);
+});
+
 document.addEventListener("DOMContentLoaded", () => {
-    const yearEL = document.getElementById("year");
-    if (yearEl) yearEl.text.Content = new Date().getFullYear();
+    const yearEl = document.getElementById("year");
+    if (yearEl) yearEl.textContent = new Date().getFullYear();
 });
 
 const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion:reduce)").matches;
