@@ -10,7 +10,8 @@
 }
 
 #page-loader img {
-    height: 64px;
+    height: 260px;
+    width: 370px;
     opacity: 0;
     animation: loader-pulse 1.1s ease-in-out infinite;
 }
