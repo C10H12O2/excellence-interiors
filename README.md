@@ -4,7 +4,7 @@ A single-page landing site for Excellence Interiors & Events, a
 retail supplier of event and interior decor pieces — serving hotels, caterers, 
 and event professionals.
 
-🔗 **Live site:** https://c10h12o2.github.io/excellence-interiors/
+🔗 **Live site:** https://ongeen.github.io/excellence-interiors/
 
 ## Overview
 
