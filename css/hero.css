@@ -108,7 +108,7 @@
         opacity: 1;
         transform: none;
         transition: none;
-    }
+    } 
 
     .hero h1 {
         font-size: clamp(2.6rem, 6vw, 3.6rem);
